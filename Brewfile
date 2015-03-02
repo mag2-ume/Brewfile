@@ -4,6 +4,11 @@
 ## caskroom/cask
 tap caskroom/cask
 install brew-cask
+cask install eclipse-ide
+cask install firefox
+cask install google-chrome
+cask install vagrant
+cask install virtualbox
 
 ## caskroom/versions
 tap caskroom/versions
@@ -17,23 +22,15 @@ install brew-file
 
 # Other Homebrew packages
 install git
+install openssl
 install wget
 
-# Below applications were installed by Cask,
-# but don't not have corresponding casks.
-
-#cask  install Warning: nothing to list
-cask install firefox
-cask install google-chrome
-cask install virtualbox
-cask install vagrant
-cask install eclipse-ide
-
 # App Store applications
-# appstore GarageBand
-# appstore iMovie
-# appstore iPhoto
-# appstore Keynote
-# appstore Numbers
-# appstore Pages
-# appstore Xcode
+appstore GarageBand
+appstore iMovie
+appstore iPhoto
+appstore Keynote
+appstore Numbers
+appstore Pages
+appstore Slack
+appstore Xcode
