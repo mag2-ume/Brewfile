@@ -19,8 +19,8 @@ install brew-file || true
 update || true
 
 # Other Homebrew packages
-install git || true
-install wget || true
+install git
+install wget
 
 # Below applications were installed by Cask,
 # but don't not have corresponding casks.
