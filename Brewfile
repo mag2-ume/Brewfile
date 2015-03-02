@@ -2,21 +2,21 @@
 # tap repositories and their packages
 
 ## caskroom/cask
-tap caskroom/cask || true
-install brew-cask || true
+tap caskroom/cask
+install brew-cask
 
 ## caskroom/versions
-tap caskroom/versions || true
+tap caskroom/versions
 
 ## homebrew/versions
-tap homebrew/versions || true
+tap homebrew/versions
 
 ## rcmdnk/file
-tap rcmdnk/file || true
-install brew-file || true
+tap rcmdnk/file
+install brew-file
 
 # Brew Update
-update || true
+update
 
 # Other Homebrew packages
 install git
@@ -26,11 +26,11 @@ install wget
 # but don't not have corresponding casks.
 
 #cask  install Warning: nothing to list
-cask install firefox || true
-cask install google-chrome || true
-cask install virtualbox || true
-cask install vagrant || true
-cask install eclipse-ide || true
+cask install firefox
+cask install google-chrome
+cask install virtualbox
+cask install vagrant
+cask install eclipse-ide
 
 # App Store applications
 # appstore GarageBand
