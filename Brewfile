@@ -9,6 +9,7 @@ cask install firefox
 cask install google-chrome
 cask install vagrant
 cask install virtualbox
+cask install java
 
 ## caskroom/versions
 tap caskroom/versions
@@ -24,13 +25,14 @@ install brew-file
 install git
 install openssl
 install wget
+install subversion
 
 # App Store applications
-appstore GarageBand
-appstore iMovie
-appstore iPhoto
-appstore Keynote
-appstore Numbers
-appstore Pages
-appstore Slack
-appstore Xcode
+# appstore GarageBand
+# appstore iMovie
+# appstore iPhoto
+# appstore Keynote
+# appstore Numbers
+# appstore Pages
+# appstore Slack
+# appstore Xcode
