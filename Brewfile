@@ -15,9 +15,6 @@ tap homebrew/versions
 tap rcmdnk/file
 install brew-file
 
-# Brew Update
-update
-
 # Other Homebrew packages
 install git
 install wget
