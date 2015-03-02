@@ -7,9 +7,9 @@ install brew-cask
 cask install eclipse-ide
 cask install firefox
 cask install google-chrome
+cask install java
 cask install vagrant
 cask install virtualbox
-cask install java
 
 ## caskroom/versions
 tap caskroom/versions
@@ -24,15 +24,17 @@ install brew-file
 # Other Homebrew packages
 install git
 install openssl
-install wget
+install readline
+install sqlite
 install subversion
+install wget
 
 # App Store applications
-# appstore GarageBand
-# appstore iMovie
-# appstore iPhoto
-# appstore Keynote
-# appstore Numbers
-# appstore Pages
-# appstore Slack
-# appstore Xcode
+appstore GarageBand
+appstore iMovie
+appstore iPhoto
+appstore Keynote
+appstore Numbers
+appstore Pages
+appstore Slack
+appstore Xcode
