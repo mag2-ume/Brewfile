@@ -68,6 +68,7 @@ appstore GarageBand
 appstore iMovie
 appstore iPhoto
 appstore Keynote
+appstore Kobito
 appstore Numbers
 appstore Pages
 appstore Slack
