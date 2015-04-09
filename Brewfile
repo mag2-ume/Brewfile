@@ -56,7 +56,11 @@ install nettle
 install openssl
 install pcre
 install pkg-config
+install rbenv
+install rbenv-gem-rehash
+install rbenv-gemset
 install readline
+install ruby-build --HEAD
 install sqlite
 install subversion
 install unixodbc
